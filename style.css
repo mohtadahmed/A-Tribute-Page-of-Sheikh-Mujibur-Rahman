@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(134, 129, 100);
+}
+/*Header Class Style*/
+.header {
+  background-color: rgba(228, 221, 195, 0.774);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+.header img {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+.header p {
+  margin: auto;
+  text-align: center;
+}
+.start {
+  display: block;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 4px 4px black;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 650px;
+  background-color: blanchedalmond;
+}
+.start p {
+  padding: 10px;
+}
+.intro {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+}
+.main {
+  background-color: rgb(219, 213, 186);
+  padding: 20px;
+}
+.main p {
+  text-align: justify;
+  font-size: 16px;
+  font-family: cursive;
+}
+#link {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin-left: 45%;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid red;
+  transition: 0.5s;
+}
+#link:link {
+  background-color: white;
+  color: black;
+}
+#link:visited {
+  background-color: bisque;
+  color: black;
+}
+#link:hover {
+  background-color: burlywood;
+  color: white;
+  transition: 0.5s;
+  border: 2px solid black;
+  font-weight: bold;
+}
+#link:active {
+  background-color: yellow;
+  color: black;
+}
+.footer p {
+  font-family: monospace;
+  margin: 15px;
+}
+cite{
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background-color: rgba(228, 221, 195, 0.774);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    border: 2px solid black;
+  }
+  .header img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 150px;
+  }
+  .start {
+    display: block;
+    border: 5px solid rgba(0, 0, 0, 0.582);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    background-color: blanchedalmond;
+  }
+  .intro {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #link {
+    margin-left: 25%;
+  }
+}
